@@ -1,6 +1,6 @@
 
 @media (max-width: 680px) {
-	.account, .navi{
+	.account, .navi, .footer-navi{
 		display: none;
 	}
 	.navi_button{
@@ -9,6 +9,14 @@
 		z-index: 9;
 	} .title-scroll{
 		color: black;
+	}
+	.footer_button{
+		display: block;
+		position: relative;
+		z-index: 9;
+	}
+	.mobile-footer-active{
+		display: block;
 	}
 	.account::after{
 		width: 30%;

@@ -8,3 +8,10 @@ naviBtn.addEventListener('click', function() {
 	scrollDown.classList.toggle('scroll-of')
 })
 
+const footerBtn = document.querySelector('.footer_button')
+const mobileFooter = document.querySelector('.mobile-footer')
+
+footerBtn.addEventListener('click', function(){
+	mobileFooter.classList.toggle('mobile-footer-active')
+	footerBtn.classList.toggle('footerBtn_close')
+})
