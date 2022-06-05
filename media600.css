@@ -1,0 +1,242 @@
+
+@media (max-width: 680px) {
+	.account, .navi{
+		display: none;
+	}
+	.navi_button{
+		display: block;
+		position: relative;
+		z-index: 9;
+	} .title-scroll{
+		color: black;
+	}
+	.account::after{
+		width: 30%;
+	}
+	.mobile-navi-active{
+		display: flex;
+	}
+	.scroll-of{
+		display: none;
+	}
+	#title{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 580px;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 300px;
+ }
+ 
+ .title-category{
+		position: relative;
+		color: gold;
+		padding-left: 44px;
+		font-family: 'Staatliches', cursive;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 14px;
+		line-height: 22px;
+ }
+ 
+ .title-category::before{
+		position: absolute;
+		left: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		display: block;
+		content: '';
+		width: 32px;
+		height: 2px;
+		background-color: gold;
+ }
+ 
+ .title-text{
+		color: gold;
+		font-family: 'Staatliches', cursive;
+		font-style: normal;
+		font-weight: 375;
+		font-size: 32px;
+		line-height: 40px;
+		word-spacing: 10px;
+ }
+ 
+ 
+ .title-scroll:hover{
+		color: gray;
+ }
+ 
+ .title-scroll{
+	 position: relative;
+	 font-size: 14px;
+ }
+
+ .title-scroll::after{
+		display: block;
+		content: '';
+		position: absolute;
+		right: -3%;
+		top: -40%;
+		width: 16px;
+		height: 24px;
+		background-image: url('images/arrow_downward_24px.png');
+ }
+ #header{
+	 margin-bottom: 100px;
+ }
+ .container, .footer-container{
+	max-width: 402px;
+}
+.content-text, .content2-text{
+	position: relative;
+	padding-left: 5px;
+	max-width: 680px;
+}
+.content1-img img, .content-img img, .content2-img img{
+	height: 320px;
+	width: 280px;
+}
+.content-text::before, .content2-text::before{
+	position: absolute;
+	left: -5%;
+	top: -30%;
+	display: block;
+	content: attr(data-number);
+	height: 240px;
+	width: 240px;
+	font-family: 'Staatliches', cursive;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 140px;
+}
+.content1-text::before{
+position: absolute;
+left: -20%;
+top: -10%;
+display: block;
+content: attr(data-number);
+height: 240px;
+width: 240px;
+font-family: 'Staatliches', cursive;
+font-style: normal;
+font-weight: 700;
+font-size: 140px;
+line-height: 1;
+opacity: 0.1;
+}
+.content1-subtitle{
+ font-size: 17px;
+ margin-top: 15px;
+}
+.content1-title{
+ font-size: 34px;
+ line-height: 57px;
+ margin-bottom: 6px;
+}
+.content1-text p{
+ font-size: 14px;
+ max-width: 380px;
+ line-height: 28px;
+}
+.content-subtitle, .content2-subtitle{
+font-size: 17px;
+}
+.content-title, .content2-title{
+font-size: 34px;
+line-height: 57px;
+margin-bottom: 6px;
+max-width: 350px;
+}
+.content-text p , .content2-text p{
+font-size: 14px;
+max-width: 380px;
+line-height: 28px;
+}
+.title-text{
+	font-size: 44px;
+}
+#title{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 580px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 300px;
+}
+.footer-navi + .footer-navi{
+margin-left: 20px;
+}
+.content, .content2, .content1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap; 
+	flex-direction: column;
+}
+ .footer-copyright-desc{
+	 font-size: 15px;
+ }
+ .footer-copyright-text{
+	 font-size: 15px;
+ }
+ .footer-navi{
+	 font-size: 15px;
+ }
+ .footer-copyright-desc {
+	margin-bottom: 172px;
+	}
+}
+@media (max-width: 420px){
+	.container, .footer-container{
+		max-width: 262px;
+	}
+	.content1-img img, .content-img img, .content2-img img{
+		height: 260px;
+		width: 260px;
+	}
+	.content1-subtitle{
+		font-size: 17px;
+		margin-top: 35px;
+	 }
+	 .footer-navi li:not(:last-of-type){
+		margin-bottom: 16px;
+	}
+	.footer-navi{
+		line-height: 26px;
+	}
+	.content1-text::before{
+		position: absolute;
+		left: -20%;
+		top: 10%;
+		display: block;
+		content: attr(data-number);
+		height: 240px;
+		width: 240px;
+		font-family: 'Staatliches', cursive;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 110px;
+		line-height: 1;
+		opacity: 0.1;
+		}
+		.content-text::before{
+			position: absolute;
+			left: 0%;
+			top: -12%;
+			display: block;
+			content: attr(data-number);
+			height: 240px;
+			width: 240px;
+			font-family: 'Staatliches', cursive;
+			font-style: normal;
+			font-weight: 700;
+			font-size: 110px;
+			line-height: 1;
+			opacity: 0.1;
+			}
+			.content-text2::before{
+				font-size: 110px;
+			}
+}
